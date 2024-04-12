@@ -84,7 +84,6 @@
     neofetch
     openvpn3
     zsh
-    putty
     nmap
     hyfetch
     go
@@ -93,7 +92,6 @@
     traceroute
     speedtest-cli
     rustc
-    filezilla
     pciutils
     docker
     git
@@ -115,14 +113,11 @@
     antimicrox
     pavucontrol
     setserial
-    betterdiscordctl
     gtop
     openconnect
     killall
     gdown
-    brlaser
     pipes
-    catppuccin-gtk
     catppuccin
     picocom
     dnsmasq
