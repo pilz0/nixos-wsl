@@ -8,13 +8,15 @@
   imports = [
     # Include the results of the hardware scan.
     ./hardware-configuration.nix
+    <nixos-wsl/modules>
   ];
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
   #Hostname
   networking.hostName = "nixos-wsl";
-
+  wsl.enable = true;
+  wsl.defaultUser = "nixos";
   #Self doxx UwU
   time.timeZone = "Europe/Berlin";
 
